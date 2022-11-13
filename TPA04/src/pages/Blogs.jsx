@@ -1,5 +1,4 @@
 import { Link, useNavigate } from "react-router-dom";
-import Blog1 from "../components/Blog1";
 const Blogs = () => {
   const navigation = useNavigate();
   let blog = [
@@ -16,8 +15,8 @@ const Blogs = () => {
       <h1 className="sub-title">Blog</h1>
       {blog.map((el) => {
         return (
-          <div key={el.id}>
-            <div onClick={() => handleBlog(el.id)}>{el.content}</div>
+          <div  key={el.id}>
+            <div className="title-blg" onClick={() => handleBlog(el.id)}>{el.content}</div>
           </div>
         );
       })}

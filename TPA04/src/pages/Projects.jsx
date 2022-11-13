@@ -16,7 +16,7 @@ const Projects = () => {
               <img
                 src={WebDevImg}
                 alt="Web Dev Image"
-                style={{ width: "95%", alignItems: "center" }}
+                style={{ width: "98%", alignItems: "center" }}
               />
               <div className="container">
                 <h4 className="card-tittle">

@@ -1,8 +1,12 @@
+import { useNavigate } from "react-router-dom";
+
 const Blog1 = () => {
+  const navigation = useNavigate();
   return (
     <>
+    
       <article className="blogs blg">
-        <h1 id="web-basic">Web Basic</h1>
+        <h2 className="sub-title" id="web-basic">Web Basic</h2>
         <p>
           Website merupakan halaman yang menampilkan berbagai macam informasi
           yang biasanya berupa teks, gambar, suara atau bahkan video yang dapat
@@ -61,6 +65,7 @@ const Blog1 = () => {
           </b>{" "}
         </p>
       </article>
+      <div className="back" onClick={() => navigation(-1)}> Back </div>
     </>
   );
 };

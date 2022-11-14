@@ -1,13 +1,15 @@
-import ProfileImg from '../assets/ProfileImg.png'
-
-const AboutDesc = () => {
+import ProfileImg from "../assets/ProfileImg.png";
+import PropTypes from "prop-types";
+        const AboutDesc = ({name}) => {
   return (
     <>
+    
       <article className="about">
         <div className="about-txt">
           <h2 className="title-about">About</h2>
+          
           <p>
-            Hello, I'm Firdaus Kuncoro Ramadhani. I am a student from Bumigora
+            Hello, I'm <span>{name}</span>.</p><p>I am a student from Bumigora
             University in Mataram studying computer science and I have an
             interest in front-end web development. For now, I am participating
             activity in the "Studi Independen-Kampus Merdeka" in Skilvul to
@@ -25,5 +27,8 @@ const AboutDesc = () => {
       </article>
     </>
   );
+};
+AboutDesc.propTypes = {
+  name: PropTypes.string,
 };
 export default AboutDesc;

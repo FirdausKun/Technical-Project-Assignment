@@ -3,7 +3,7 @@ import AboutDesc from "../components/AboutDesc";
 const About = () => {
     return(
         <>
-        <AboutDesc />
+        <AboutDesc name={"Firdaus Kuncoro Ramadhani"}/>
         </>
     )
 }

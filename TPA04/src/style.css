@@ -97,7 +97,7 @@ footer {
 /* about */
 .title-about {
   margin-left: 50px;
-  margin-top: 100px;
+  margin-top: 10px;
 }
 .about {
   margin-left: 50px;
@@ -131,18 +131,8 @@ footer {
   /* align-items: center; */
   justify-content: space-evenly;
 }
-.card {
-  border: #261f2d;
-  background-color: #261f2d;
-  border-radius: 250px;
-  /* align-items: center; */
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  transition: 0.3s;
-  width: 250px;
-  height: 400px;
-}
 .cards a {
-  height: 400px;
+  height: 430px;
   text-decoration: none;
   background-color: #261f2d;
 }
